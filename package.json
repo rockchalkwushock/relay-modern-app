@@ -1,0 +1,34 @@
+{
+  "name": "relay-modern-app",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Cody Brunner <rockchalkwushock@icloud.com> (https://rockchalkwushock.github.io/rcws-development/)",
+  "description": "Playing around with React + Relay + GraphQL.",
+  "repository": "https://github.com/rockchalkwushock/relay-modern-app.git",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git cz",
+    "lint": "eslint /api /src",
+    "lint:fix": "yarn lint -- --fix",
+    "push": "git push origin master",
+    "relay": "relay-compiler --src '/directory' --schema 'path/to/schema'",
+    "relay:watch": "yarn relay -- --watch"
+  },
+  "dependencies": {
+    "react": "~15.5.4",
+    "react-dom": "~15.5.4",
+    "react-relay": "dev"
+  },
+  "devDependencies": {
+    "babel-plugin-relay": "dev",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "~3.19.0",
+    "eslint-config-equimper": "~1.6.2",
+    "relay-compiler": "dev"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
