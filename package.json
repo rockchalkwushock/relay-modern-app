@@ -20,7 +20,16 @@
     "react-relay": "~0.10.0"
   },
   "devDependencies": {
+    "babel-cli": "~6.24.1",
+    "babel-core": "~6.24.1",
+    "babel-loader": "~6.4.1",
     "babel-plugin-relay": "~1.0.0",
+    "babel-plugin-transform-decorators-legacy": "~1.3.4",
+    "babel-plugin-transform-object-rest-spread": "~6.23.0",
+    "babel-polyfill": "~6.23.0",
+    "babel-preset-env": "~1.4.0",
+    "babel-preset-react": "~6.24.1",
+    "babel-register": "~6.24.1",
     "cz-conventional-changelog": "^2.0.0",
     "eslint": "~3.19.0",
     "eslint-config-equimper": "~1.6.3",

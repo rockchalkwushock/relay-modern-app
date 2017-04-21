@@ -2,5 +2,8 @@
   "extends": "equimper",
   "env": {
     "jest": true
+  },
+  "rules": {
+    "no-console":"warn"
   }
 }
