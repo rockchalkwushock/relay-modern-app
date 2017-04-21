@@ -42,6 +42,7 @@
     "babel-preset-react": "~6.24.1",
     "babel-register": "~6.24.1",
     "cz-conventional-changelog": "^2.0.0",
+    "dotenv-safe": "~4.0.3",
     "eslint": "~3.19.0",
     "eslint-config-equimper": "~1.6.3",
     "relay-compiler": "~0.0.1"
