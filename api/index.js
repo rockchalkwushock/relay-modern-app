@@ -1,9 +1,11 @@
 import express from 'express';
-import { env } from './utils';
+import { env, middlewares } from './utils';
 
-const app = express();
+const server = express();
 
-app.listen(env.PORT, err => {
+middlewares(server);
+
+server.listen(env.PORT, err => {
   if (err) return console.error(err);
   console.log(`Application running on ${env.PORT} in ${env.MODE}`);
 });
