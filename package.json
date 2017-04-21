@@ -12,9 +12,19 @@
     "lint:fix": "yarn lint -- --fix",
     "push": "git push origin master",
     "relay": "relay-compiler --src '/directory' --schema 'path/to/schema'",
-    "relay:watch": "yarn relay -- --watch"
+    "relay:watch": "yarn relay -- --watch",
+    "start": "NODE_ENV=production nodemon index.js"
   },
   "dependencies": {
+    "bcrypt": "~1.0.2",
+    "express": "~4.15.2",
+    "express-graphql": "~0.6.4",
+    "graphql-relay": "~0.5.1",
+    "mongoose": "~4.9.5",
+    "morgan": "~1.8.1",
+    "nodemon": "~1.11.0",
+    "passport": "~0.3.2",
+    "passport-local": "~1.0.0",
     "react": "~15.5.4",
     "react-dom": "~15.5.4",
     "react-relay": "~0.10.0"
